@@ -622,6 +622,9 @@ h4 {
   .mobile_phones {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
   }
 
   span {
@@ -636,9 +639,17 @@ h4 {
     margin-top: 20px;
   }
 
-  .image_container>img {
-    width: 70%;
-  }
+ .image_container {
+  width: 100%;
+ }
+
+ .scan {
+  width: 70%;
+ }
+
+ .app {
+  width: 70%;
+ }
 
   .one {
     order: -1;
